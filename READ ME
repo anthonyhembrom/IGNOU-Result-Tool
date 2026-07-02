@@ -1,0 +1,35 @@
+IGNOU Assignment Marks Fetcher
+Description
+
+A Python automation tool that retrieves IGNOU BCA assignment marks for multiple students using enrollment numbers from a text file. The script displays real-time progress in the command line, sorts students based on total assignment marks, and generates a structured text report.
+
+Features
+Reads multiple enrollment numbers from a text file.
+Fetches assignment marks from the IGNOU Grade Card portal.
+Displays results in real time in the command line.
+Calculates total assignment marks automatically.
+Sorts students by total marks.
+Generates a formatted text report (gradecard_results.txt).
+Technologies Used
+Python
+Requests
+BeautifulSoup4
+Requirements
+Python 3.9 or later
+requests
+beautifulsoup4
+
+Install dependencies:
+
+pip install requests beautifulsoup4
+How to Run
+Add enrollment numbers to student_list.txt (one per line).
+Run:
+python main.py
+The script will:
+Retrieve assignment marks.
+Display live results in the terminal.
+Generate gradecard_results.txt.
+Output
+Live command-line result display.
+Formatted text report containing assignment marks and total scores.
